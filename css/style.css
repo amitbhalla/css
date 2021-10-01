@@ -6,9 +6,14 @@
 
 - Font Weights:
 Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
 
 - Line Heights:
-ltlt: 1
+Default: 1
+Heading default: 1.05
+P default: 1.6
 
 -- 02 Colors
 
@@ -17,7 +22,7 @@ ltlt: 1
 #e6f5e9
 
 - Tints
-#fdf2e9
+#008f21
 
 - Shades
 
@@ -25,11 +30,12 @@ ltlt: 1
 
 - Greys
 #555
-#333
+#001004
 
 -- 05 Shadows
 
 -- 06 Border Radius
+Default: 9px
 
 -- 07 Whitespace
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -121,6 +127,45 @@ btn:visited {
 
 .logo {
   height: 3rem;
+}
+
+/* ****************** */
+/* Navigation */
+/* ****************** */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #001004;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #009f25;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.9rem;
+  color: #fff;
+  background-color: #009f25;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #008f21;
 }
 
 /* ****************** */
