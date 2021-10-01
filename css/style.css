@@ -13,8 +13,8 @@ ltlt: 1
 -- 02 Colors
 
 - Primary:
-#e67e22
-#cf711f
+#009f25
+#e6f5e9
 
 - Tints
 #fdf2e9
@@ -50,36 +50,19 @@ body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #001004;
 }
 
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.6rem 0;
-}
-
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 9.6rem;
-  align-items: center;
-}
-
+/* ****************** */
+/* GENERAL COMPONENTS */
+/* ****************** */
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
-  color: #333;
+  color: #001004;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
-}
-
-.hero-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
 }
 
 .btn:link,
@@ -95,43 +78,85 @@ btn:visited {
 
 .btn--full:link,
 .btn-full:visited {
-  background-color: #e67e22;
+  background-color: #009f25;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn-full:active {
-  background-color: #cf711f;
+  background-color: #008f21;
   color: #fff;
 }
 
 .btn--outline:link,
 .btn-outline:visited {
   background-color: #fff;
-  color: #555;
+  color: #001004;
 }
 .btn--outline:hover,
 .btn-outline:active {
-  background-color: #fdf2e9;
-  color: #555;
+  background-color: #e6f5e9;
+  color: #001004;
   /* Add border inside the button */
   box-shadow: inset 0 0 0 3px #fff;
   /*  */
-}
-
-.hero-img {
-  width: 100%;
 }
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
+/* ****************** */
+/* HEADER SECTION */
+/* ****************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6f5e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+/* ****************** */
+/* HERO SECTION */
+/* ****************** */
+
+.section-hero {
+  background-color: #e6f5e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
 .delivered-meals {
   display: flex;
   align-items: center;
   gap: 1.6rem;
-  margin-top: 8rem;
+  margin-top: 9.6rem;
 }
 
 .delivered-imgs {
@@ -143,7 +168,7 @@ btn:visited {
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #e6f5e9;
 }
 
 .delivered-imgs img:last-child {
@@ -156,6 +181,6 @@ btn:visited {
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: #009f25;
   font-weight: 700;
 }
