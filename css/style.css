@@ -117,6 +117,37 @@
 }
 
 /* ****************** */
+/* AS FEATURED IN */
+/* ****************** */
+
+.section-featured {
+  padding: 4.8rem 0;
+  background-color: #f8f8f8;
+}
+
+.heading-featured-in {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #666666;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.75px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0%);
+  opacity: 50%;
+}
+
+/* ****************** */
 /* HOW IT WORKS */
 /* ****************** */
 

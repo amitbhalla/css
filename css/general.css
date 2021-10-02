@@ -50,6 +50,7 @@ Default: 9px
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -126,7 +127,7 @@ body {
 }
 
 .btn:link,
-btn:visited {
+.btn:visited {
   display: inline-block;
   font-size: 2rem;
   font-weight: 600;
@@ -137,24 +138,24 @@ btn:visited {
 }
 
 .btn--full:link,
-.btn-full:visited {
+.btn--full:visited {
   background-color: #009f25;
   color: #fff;
 }
 
 .btn--full:hover,
-.btn-full:active {
+.btn--full:active {
   background-color: #008f21;
   color: #fff;
 }
 
 .btn--outline:link,
-.btn-outline:visited {
+.btn--outline:visited {
   background-color: #fff;
   color: #001004;
 }
 .btn--outline:hover,
-.btn-outline:active {
+.btn--outline:active {
   background-color: #e6f5e9;
   color: #001004;
   /* Add border inside the button */
