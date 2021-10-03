@@ -216,6 +216,7 @@
 
 .section-meals {
   padding: 9.6rem 0;
+  background-color: #f8f8f8;
 }
 
 .heading-secondary span {
@@ -376,16 +377,15 @@
   border-radius: 11px;
   width: 75%;
   box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+  padding: 4.8rem;
 }
 
 .pricing-plan--starter {
   justify-self: end;
-  padding: 4.6rem;
 }
 
 .pricing-plan--complete {
   background-color: #e6f5e9;
-  padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
@@ -440,4 +440,32 @@
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-icon {
+  color: #009f25;
+  background-color: #e6f5e9;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #001004;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
