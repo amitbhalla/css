@@ -145,6 +145,12 @@
   height: 3.2rem;
   filter: brightness(0%);
   opacity: 50%;
+  transition: all 0.3s ease;
+}
+
+.logos img:hover {
+  filter: brightness(100%);
+  opacity: 100%;
 }
 
 /* ****************** */
