@@ -51,6 +51,8 @@ Default: 9px
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -58,6 +60,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #001004;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* ****************** */
