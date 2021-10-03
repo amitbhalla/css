@@ -179,6 +179,26 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #008f21;
+}
+
 /* HELPER CLASSES */
 
 .center-text {
@@ -195,4 +215,16 @@ body {
 
 strong {
   font-weight: 500;
+}
+
+.list--height-fixed {
+  min-height: 20rem;
+}
+
+.list-icon--red {
+  color: crimson !important;
+}
+
+.list-icon--red + span {
+  color: crimson !important;
 }
